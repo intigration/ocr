@@ -1,3 +1,8 @@
+#########################################################################
+#
+## Author: Muhammad Farhan <engr.farhan@icloud.com>
+#
+
 import pytesseract
 import easyocr
 import cv2

@@ -1,11 +1,17 @@
+#########################################################################
+#
+## Author: Muhammad Farhan <engr.farhan@icloud.com>
+#
+
 import streamlit as st
 from main import run_license_plate_recognition
 import os
 
 
 def app():
-    st.header("License Plate Recognition Web App")
+    st.header("Number Plate Recognition Application")
     st.subheader("Powered by YOLOv5")
+    st.subheader("Authored by Muhammad Farhan")
     st.write("Welcome!")
 
     with st.form("my_uploader"):

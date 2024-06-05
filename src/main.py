@@ -1,3 +1,8 @@
+#########################################################################
+#
+## Author: Muhammad Farhan <engr.farhan@icloud.com>
+#
+
 from yolov5m_inference import inference
 from utils import getBestPrediction
 from preprocess import TransformImage
